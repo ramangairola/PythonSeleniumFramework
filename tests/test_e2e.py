@@ -34,6 +34,4 @@ class TestOne(BaseClass):
         confirm_page.get_purchase_button().click()
         success_message = confirm_page.get_success_messgae_field().text
         print(success_message)
-        print(success_message+"Again")
-        print(success_message + "Again")
         assert "Success" in success_message
